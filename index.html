@@ -20,24 +20,24 @@
     <div class="right-content">
       <form>
         <div class="form-group row">
-          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-          <input type="email" class="form-control col-sm-10" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-          <small id="error-message">Error message</small>
+          <label for="email" class="col-sm-2 col-form-label">Email</label>
+          <input name="email" type="email" class="form-control col-sm-10" id="email"  placeholder="Email">
+          <small id="email-error-message">Error message</small>
         </div>
         <div class="form-group row">
-          <label for="staticEmail" class="col-sm-2 col-form-label">Typ</label>
-          <select class="form-control col-sm-10" id="exampleFormControlSelect1">
+          <label for="type" class="col-sm-2 col-form-label">Typ</label>
+          <select name="type" class="form-control col-sm-10" id="type">
             <option>-- wybierz --</option>
             <option>Sugestia</option>
             <option>Pytanie</option>
             <option>Inne</option>
           </select>
-          <small id="error-message">Error message</small>
+          <small id="type-error-message">Error message</small>
         </div>
         <div class="form-group row">
-          <label for="staticEmail" class="col-sm-2 col-form-label">Wiadomość</label>
-          <textarea class="form-control col-sm-10" placeholder="Wiadomość"></textarea>
-          <small id="error-message">Error message</small>
+          <label for="message" class="col-sm-2 col-form-label">Wiadomość</label>
+          <textarea id="message" name="message" class="form-control col-sm-10" placeholder="Wiadomość"></textarea>
+          <small id="message-error-message">Error message</small>
         </div>
         <button type="button" class="btn btn-primary">Wyślij</button>
       </form>
