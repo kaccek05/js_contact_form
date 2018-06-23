@@ -17,19 +17,16 @@
     <div class="alert alert-danger" role="alert">
       Error message
     </div> -->
-    <div class="left-content">
-      <h5>Email</h5>
-      <h5>Typ</h5>
-      <h5>Wiadomość</h5>
-    </div>
     <div class="right-content">
       <form>
-        <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <input type="email" class="form-control col-sm-10" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
           <small id="error-message">Error message</small>
         </div>
-        <div class="form-group">
-          <select class="form-control" id="exampleFormControlSelect1">
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Typ</label>
+          <select class="form-control col-sm-10" id="exampleFormControlSelect1">
             <option>-- wybierz --</option>
             <option>Sugestia</option>
             <option>Pytanie</option>
@@ -37,8 +34,9 @@
           </select>
           <small id="error-message">Error message</small>
         </div>
-        <div class="form-group">
-          <textarea class="form-control" placeholder="Wiadomość"></textarea>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Wiadomość</label>
+          <textarea class="form-control col-sm-10" placeholder="Wiadomość"></textarea>
           <small id="error-message">Error message</small>
         </div>
         <button type="button" class="btn btn-primary">Wyślij</button>

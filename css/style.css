@@ -4,17 +4,15 @@
   margin-top: 50px;
   background: white;
 }
-h5 {
-  padding-bottom: 50px;
-}
-.left-content {
-  float: left;
-}
-.right-content {
-  float: right;
-  width: 85%;
-}
 small {
   font-weight: bolder;
   color: red;
+  margin-left: 155px;
+  margin-top: 5px;
+}
+label {
+  font-weight: bolder;
+}
+button {
+  margin-left: 140px;
 }
