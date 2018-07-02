@@ -13,6 +13,7 @@ $(document).ready(function() {
     $.post("http://csbackend.s1.themasters.io/api/v1/contact_messages", data)
     .done(function(data) {
       console.log(data)
+      $("#success").text(success.success[0])
     })
     .fail(function(data) {
       var errors = data.responseJSON.errors
